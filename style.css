@@ -1,0 +1,294 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+    margin: 0px;
+}
+main {
+    padding: 20px;
+}
+h1 {
+    text-align:center;
+    scroll-margin-top: 60px;
+}
+h2 {
+    text-align:center;
+    color: rgb(0%, 0%, 25%);
+} 
+.home{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+#home-desc {
+    padding-top: 10px;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+  z-index: 100;
+  margin-bottom: 30px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(0%, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(0%, 0%, 10%);;
+}
+.navbar li:first-child {
+  margin-right: auto;
+}
+#headshot {
+    margin-left: 20px;
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#resume {
+    display: block;
+    margin:0 auto;
+    width: 80%;
+    height: 500px;
+}
+#download-res:hover {
+  background-color: rgb(0%, 0%, 10%);
+}
+#resh1 {
+    padding-top: 20px;
+}
+#resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 5px;
+  gap: 8px;
+  margin-top: 20px;
+}
+#resh1 {
+  text-align: center;
+  margin-top: 20px;
+}
+#button-name {
+    margin-right: auto;
+  background-color: rgb(0%, 0%, 25%);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+  margin-left: 20px;
+}
+#button {
+  margin-right: auto;
+  background-color: rgb(61, 1, 61);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+  margin-left: 20px;
+}
+
+#button:hover {
+  background-color: rgb(0%, 0%, 10%);
+}
+
+#emailme {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.download-btn {
+  background-color: rgb(0%, 0%, 25%);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.download-btn:hover {
+  background-color: rgb(0%, 0%, 10%);
+}
+#download-res {
+    margin-right: 150px;
+    margin-left: auto;
+  background-color: rgb(0%, 0%, 25%);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+#projects {
+    padding-top: 30px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.project-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.project-item img, .project-item video {
+  width: 650px;
+  height: 400px;
+  object-fit: cover;
+}
+/* paragraphs for the items */
+.project-item p {
+  color: #444;
+  font-size: 20px;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  border-left: 4px solid rgb(0%, 0%, 25%);
+  padding: 12px 16px;
+  border-radius: 4px;
+  width: 100%;
+}
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.experience-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.experience p {
+    color: #444;
+  font-size: 22px;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  border-left: 4px solid rgb(0%, 0%, 25%);
+  padding: 12px 16px;
+  border-radius: 4px;
+  width: 100%;
+}
+.experience {
+  padding-top: 20px;
+}
+
+#resume-container {
+  padding-top: 5px;
+}
+.experience img{
+    width: 100px;
+    height:100%;
+    object-fit: contain;
+    margin-left: 35px;
+}
+.contact {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+}
+.contact p{
+    color: #444;
+  font-size: 25px;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  border-left: 4px solid rgb(0%, 0%, 25%);
+  padding: 12px 16px;
+  border-radius: 4px;
+  width: 100%;
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 400px;
+}
+
+.contact img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+#emailme {
+    margin-top: 10px;
+}
+#profiles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
+}
+
+#linked {
+  width: 50px;
+  height: 50px;
+}
+
+#github {
+  width: 50px;
+  height: 50px;
+}
+#resume-btn {
+    margin-right:150px;
+}
+
+#footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(0%, 0%, 25%);
+    color: white;
+}
+#vandy {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+#vandy p {
+    margin: 0px;
+}
+.class {
+    padding-top: 20px;
+}
