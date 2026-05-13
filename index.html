@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <!--head -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jacob Silverman - Combining Sports & Technology</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--navigation bar setting -->
+    <nav class="navbar">
+      <ul>
+        <li>
+          <a href="#home"
+            ><button id="button-name" type="button">Jacob Silverman</button>
+          </a>
+        </li>
+        <!--links to the different sections of the page -->
+        <li><a href="#home">Home</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="home">
+      <h1 id="home">Hi, I'm Jacob Silverman</h1>
+      <h2 id="home-desc">
+        I'm a junior at Vanderbilt studying Computer Science and Mathematics
+        with a minor in Data Science. I'm interested in building a career
+        focused on the intersection between sports and software.
+      </h2>
+    </div>
+
+    <hr />
+    <!--Experience section with logos and descriptions of my work -->
+    <div class="experience">
+      <h1 id="experience">Experience</h1>
+      <div class="experience-item">
+        <img src="images/espn.png" alt="ESPN Logo" />
+        <p>
+          ESPN — Incoming Programming Intern, Summer 2026<br />
+          Conducting ratings research and analysis across linear and digital
+          platforms. Developing presentations and communicating programming
+          initiatives across ESPN departments. Assisting with the planning and
+          scheduling of college and professional sporting events across
+          broadcast and streaming properties.<br />
+          <strong>Tools:</strong> Excel, Python
+        </p>
+      </div>
+      <div class="experience-item">
+        <img src="images/ufc.webp" alt="UFC Logo" />
+        <p>
+          UFC — Data Science Intern, Summer 2025 <br />
+          Analyzed user behavior and engagement data to support Fight Pass
+          content strategy. Built dashboards and reports to track key metrics,
+          identify trends, and provide actionable insights for content
+          optimization. <br />
+          <strong>Tools: </strong>Excel, Python
+        </p>
+      </div>
+      <div class="experience-item">
+        <img
+          src="images/Vanderbilt-Commodores-Logo.png"
+          alt="Vanderbilt Logo"
+        />
+        <div id="vandy">
+          <p>
+            Vanderbilt Athletics — Data Analytics Intern, 2025 - Present<br />
+            Built predictive models for baseball and football performance,
+            attendance, and revenue forecasting.<br />
+            <strong>Tools:</strong> Python, R, Excel
+          </p>
+
+          <p>
+            Vanderbilt Sports Business and Analytics Club — Co-President, 2025 -
+            Present<br />
+            Led a student organization focused on sports analytics, organizing
+            workshops and industry panels. Helped secure internship
+            opportunities for students by building relationships with athletics
+            staff and industry professionals.<br />
+            <strong>Tools:</strong> Python, R, Java, Excel
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <!--embed the resume-->
+    <h1 id="resh1">Resume</h1>
+    <div id="resume-container">
+      <a href="images/resume.pdf" target="_blank">
+        <button
+          id="resume-btn"
+          type="button"
+          download=""
+          class="download-btn"
+          target="_blank"
+        >
+          View in Full Screen
+        </button></a
+      >
+      <embed id="resume" src="images/resume.pdf" type="application/pdf" />
+    </div>
+
+    <!--Past work section so using a divisor for the grid then the items have a -->
+    <h1 id="projects">Past Projects</h1>
+    <div class="project-grid">
+      <div class="project-item">
+        <img src="images/SABR.JPG" alt="SABR" />
+        <p>
+          SABR Analytics Conference - placed 1st in our room and 2nd overall in
+          the Diamond Dollars competition. Built predictive models using XGBoost
+          and KNN modeling to analyze player valuation and performance trends.
+        </p>
+        <a href="images/SABR.pdf" download>
+          <button class="download-btn">View my SABR presentation!</button>
+        </a>
+      </div>
+      <div class="project-item">
+        <video controls>
+          <source src="images/saberseminar.mp4" type="video/mp4" />
+        </video>
+        <p>
+          Saberseminar — presented original research on MLB's most underrated
+          pitch, the splitter. Applied kernel density estimation to model pitch
+          movement distributions and effectiveness across counts, handedness,
+          and game situations.
+        </p>
+        <a href="images/SaberseminarPresentation.pdf" download>
+          <button class="download-btn">
+            View my Saberseminar presentation!
+          </button>
+        </a>
+      </div>
+      <div class="project-item">
+        <img src="images/magnetball.png" alt="Magnet Ball" />
+        <p>
+          Magnet Ball — a browser-based game where you control Tyrese Haliburton
+          using keyboard inputs, using magnetic forces to attract and repel a
+          ball around the court. <br />Built with Python and Pygame.
+        </p>
+        <a href="https://github.com/jsilverman24/Magnet-Ball" target="_blank">
+          <button class="download-btn">View Project on GitHub</button>
+        </a>
+      </div>
+      <div class="project-item">
+        <img src="images/heatmap.png" alt="Heatmap" />
+        <p>
+          SMT Data Challenge — built an interactive heatmap using spatial
+          functions to analyze optimal outfielder positioning for cutoff throws.
+          Leveraged minor league tracking data to compute throw efficiency
+          metrics and visualize fielding strategy.
+        </p>
+        <a href="https://github.com/Cut-Off-Command/SMT" target="_blank">
+          <button class="download-btn">
+            View Project and Writeup on GitHub
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <hr />
+    <div id="contact" class="contact">
+      <h1>Contact Me</h1>
+      <h2>I am always open to discussing new opportunities!</h2>
+      <div class="contact-item">
+        <img src="images/mail.png" alt="Email Logo" />
+        <p>Email: <br />Jacob.s.silverman@vanderbilt.edu</p>
+      </div>
+      <div class="contact-item">
+        <img
+          src="images/pngtree-phone-icon-png-image_1757859.jpg"
+          alt="Phone logo"
+        />
+        <p>Number: <br />+1 (516) 288-6223</p>
+      </div>
+      <div class="contact-item">
+        <img src="images/location.png" alt="Location logo" />
+        <p>Location: <br />New York, USA</p>
+      </div>
+    </div>
+
+    <div id="profiles">
+      <div>
+        <a href="mailto:jacob.s.silverman@vanderbilt.edu">
+          <button id="emailme" type="button">Email Me!</button>
+        </a>
+      </div>
+      <a
+        href="https://www.linkedin.com/in/jacob-silverman-318627233"
+        target="_blank"
+      >
+        <img
+          id="linked"
+          src="images/LinkedIn_logo_initials.png"
+          alt="Jacob Silverman's LinkedIn"
+        />
+      </a>
+      <a href="https://github.com/jsilverman24" target="_blank">
+        <img
+          id="github"
+          src="images/github.png"
+          alt="Jacob Silverman's GitHub"
+        />
+      </a>
+    </div>
+  </body>
+  <footer id="footer">
+    <p>&copy; 2026 Jacob Silverman. All rights reserved.</p>
+  </footer>
+</html>
